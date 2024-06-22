@@ -58,3 +58,19 @@ justify-content: flex-start;
 .font{
     background-color: #f2b417;
 }
+.menu-button{
+    display: none;
+}
+@media(max-width: 800px){
+    .hideOnMobile{
+        display:none;
+    }
+}
+.menu-button{
+    display: block;
+}
+@media(max-width:400px){
+    .side-bar{
+        width: 100%;
+    }
+}

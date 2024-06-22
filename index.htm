@@ -9,19 +9,19 @@
 <body>
     <nav>
         <ul class="side-bar">
-            <li > <a href="#">FitnessGym </a></li>
+            <li onclick="hidesidebar()" > <a class="font" href="#"> <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a> </li>
             <li > <a href="#">AboutUs </a></li>
             <li > <a href="#">pricing </a></li>
             <li > <a href="#">signin </a></li>
             <li > <a href="#">signup </a></li>
         </ul>
         <ul>
-            <li > <a href="#">Fitness Gym </a></li>
-            <li > <a href="#">AboutUs </a></li>
-            <li > <a href="#">pricing </a></li>
-            <li > <a href="#">sigIin </a></li>
-            <li > <a href="#">signUp </a></li>
-            <li onclick="showSidebar()"> <a class="font" href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a> </li>
+            <li> <a href="#">FitnessGym </a></li>
+            <li class="hideOnMobile" > <a href="#">AboutUs </a></li>
+            <li class="hideOnMobile" > <a href="#">pricing </a></li>
+            <li class="hideOnMobile" > <a href="#">sigIin </a></li>
+            <li class="hideOnMobile" > <a href="#">signUp </a></li>
+            <li class="menu-button"onclick="showSidebar()"> <a class="font" href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a> </li>
         </ul>
     </nav>
     <script src="navbar.js"></script>
